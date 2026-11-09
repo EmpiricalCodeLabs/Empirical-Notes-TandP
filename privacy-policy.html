@@ -32,12 +32,6 @@
             padding-bottom: 20px;
             border-bottom: 2px solid #7C4DFF;
         }
-        .logo {
-            width: 80px;
-            height: 80px;
-            margin-bottom: 15px;
-            border-radius: 16px;
-        }
         h1 {
             color: #7C4DFF;
             font-size: 28px;
@@ -55,6 +49,12 @@
             padding-bottom: 8px;
             border-bottom: 1px solid #eee;
         }
+        h3 {
+            color: #333;
+            font-size: 16px;
+            margin-top: 18px;
+            margin-bottom: 8px;
+        }
         p, li {
             margin-bottom: 12px;
             color: #444;
@@ -62,13 +62,6 @@
         ul {
             margin-left: 25px;
             margin-bottom: 15px;
-        }
-        .highlight {
-            background: #f0ebff;
-            padding: 15px 20px;
-            border-radius: 8px;
-            border-left: 4px solid #7C4DFF;
-            margin: 20px 0;
         }
         .footer {
             text-align: center;
@@ -88,91 +81,116 @@
         <div class="header">
             <h1>Empirical Notes</h1>
             <p class="subtitle">Privacy Policy</p>
-            <p class="subtitle">Last updated: December 26, 2024</p>
+            <p class="subtitle">Last updated: November 9, 2026</p>
         </div>
-
-        <div class="highlight">
-            <strong>Summary:</strong> Empirical Notes is designed with privacy in mind. All your data stays on your device. We do not collect, transmit, or store any personal information on external servers.
-        </div>
+        <p><em>This is the same text shown in the Empirical Notes app.</em></p>
 
         <h2>1. Introduction</h2>
-        <p>Empirical Notes ("we", "our", or "the app") is a field documentation application that helps users capture photos, videos, and observations with GPS location data. This Privacy Policy explains how we handle your information.</p>
+        <p>This Privacy Policy explains how the Empirical Notes mobile application ("the App") handles information. The App is provided by Empirical Code Labs ("we," "us," "our"). You can contact us at <a href="mailto:empiricalcodelabs@gmail.com">empiricalcodelabs@gmail.com</a>.</p>
+        <p>In short: the App has no accounts, no analytics, no advertising, and no tracking. Everything you create is stored on your device, and we do not operate servers that receive it. A small number of features contact third-party services, as described in section 3.</p>
 
-        <h2>2. Information We Collect</h2>
-        <p>Empirical Notes collects and stores the following information <strong>locally on your device only</strong>:</p>
+        <h2>2. Information Stored on Your Device</h2>
+        <h3>2.1 What the App Stores</h3>
+        <p>When you use the App, the following is stored locally on your device:</p>
         <ul>
-            <li><strong>Photos and Videos:</strong> Images and videos you capture using the app's camera</li>
-            <li><strong>Location Data:</strong> GPS coordinates, altitude, and accuracy when you capture observations (with your permission)</li>
-            <li><strong>Voice Notes:</strong> Audio recordings you create as observation notes</li>
-            <li><strong>Text Notes:</strong> Written notes and template data you enter</li>
-            <li><strong>Device Sensor Data:</strong> Compass heading and device tilt/roll for photo orientation</li>
+            <li>Photos and videos you capture</li>
+            <li>Voice notes and video sound you record</li>
+            <li>Text notes, template data, projects, and custom templates you create</li>
+            <li>GPS location (coordinates, altitude, accuracy) at the time of capture</li>
+            <li>Addresses looked up for your capture locations</li>
+            <li>Device sensor data (compass heading, tilt, roll) at the time of capture</li>
+            <li>App settings and preferences, including when you accepted these documents</li>
+            <li>Street map images (OpenStreetMap) downloaded for the map view, kept in a cache</li>
         </ul>
+        <h3>2.2 We Cannot Access It</h3>
+        <p>This information never reaches us. We cannot view, recover, or delete it remotely. It stays on your device until you delete it, clear the App's data, or uninstall the App.</p>
 
-        <h2>3. How We Use Your Information</h2>
-        <p>All collected information is used solely to:</p>
+        <h2>3. Information That Leaves Your Device</h2>
+        <h3>3.1 Address Lookup (Reverse Geocoding)</h3>
+        <p>When you capture a photo or video while location is enabled and you are online, the App sends the GPS coordinates to your device's built-in geocoding service to find the nearest address. On Android this service is provided by Google, and on iOS by Apple. They process this request under their own privacy policies. If you are offline or have denied location permission, no lookup takes place.</p>
+        <h3>3.2 Map Tiles</h3>
+        <p>When you open the map, the App downloads street map images from OpenStreetMap (operated by the OpenStreetMap Foundation). If you switch on satellite view, imagery and a small amount of map information are downloaded from Esri's ArcGIS Location Platform, a service Esri provides to us; these requests include a key that identifies the App, not you. Like any website, these servers receive your IP address, the map area and zoom level being requested, and an identifier of the App. Your saved observations and their locations are not sent. Street map images are kept in a cache on your device and reused while they are current, so areas you have already viewed are not downloaded again. Satellite imagery is not stored on your device; it is only kept in memory while the map is open.</p>
+        <h3>3.3 Sharing and Exporting</h3>
+        <p>Content only leaves your device in other ways when you choose to export or share it. When you do:</p>
         <ul>
-            <li>Display your observations and photos within the app</li>
-            <li>Add GPS coordinates and metadata to your captured images</li>
-            <li>Show photo locations on the map view</li>
-            <li>Enable export and sharing of your observation data</li>
+            <li>Shared photos may contain location information in a watermark (if enabled in settings) or in the file's metadata</li>
+            <li>Exported project files contain your photos, videos, voice notes, notes, and location data, and are not encrypted</li>
+            <li>Content is sent through the app or service you choose (such as email or messaging apps), which has its own privacy policy</li>
+            <li>We have no control over how recipients or those services use the content</li>
         </ul>
+        <h3>3.4 Files You Import</h3>
+        <p>Project files you import, or share to the App from other apps, are copied into the App's local storage on your device. Nothing is uploaded.</p>
 
-        <h2>4. Data Storage</h2>
-        <div class="highlight">
-            <strong>Local Storage Only:</strong> All your data is stored exclusively on your device. We do not have servers that collect or store your information.
-        </div>
-        <p>Your data is stored in:</p>
+        <h2>4. How Information Is Used</h2>
+        <h3>4.1 Purposes</h3>
+        <p>The information stored by the App is used on your device only to:</p>
         <ul>
-            <li>A local SQLite database on your device</li>
-            <li>The app's private storage folder for photos, videos, and voice notes</li>
+            <li>Organise and display your projects and observations</li>
+            <li>Show your captures on the map and calculate distances and areas</li>
+            <li>Add watermarks to photos, using your settings</li>
+            <li>Play back voice notes and videos</li>
+            <li>Export, import, and share project data when you ask it to</li>
         </ul>
+        <h3>4.2 No Analytics, Advertising, or Tracking</h3>
+        <p>The App does not contain analytics, crash reporting, advertising, or tracking tools, and we do not sell or share information for advertising.</p>
 
-        <h2>5. Data Sharing</h2>
-        <p>Empirical Notes does not automatically share your data with anyone. Data is only shared when:</p>
+        <h2>5. Legal Basis (GDPR)</h2>
+        <h3>5.1 Data on Your Device</h3>
+        <p>Because information stored by the App stays on your device and is not accessible to us, we do not process it as a controller. You decide what is recorded, kept, shared, and deleted.</p>
+        <h3>5.2 Third-Party Requests</h3>
+        <p>The address lookup and street map requests described in section 3 are made so that the features you use can work. Google, Apple, and the OpenStreetMap Foundation process this data as independent controllers under their own privacy policies. Satellite imagery works differently: Esri processes those requests (your IP address and the map area requested) on our behalf, as our processor under its Data Processing Addendum with us, so for this processing we are the controller. It is used only to show you the satellite view you switch on, which is necessary to provide that feature (Article 6(1)(b) GDPR). We do not receive this data ourselves. Esri may not use it for its own purposes, keeps it only as long as needed to provide the service to us, and returns or deletes it when our agreement ends.</p>
+        <h3>5.3 Contacting Us</h3>
+        <p>If you email us, we use your email address and message only to reply to you. We do this based on our legitimate interest in answering your questions (Article 6(1)(f) GDPR), and we delete the correspondence when it is no longer needed.</p>
+
+        <h2>6. International Transfers</h2>
+        <p>Some third-party providers in section 3 may process the data they receive outside the European Economic Area, for example in the United States. The OpenStreetMap Foundation is based in the United Kingdom, which the European Commission recognises as providing adequate protection. Google and Apple state that they rely on safeguards such as the EU-U.S. Data Privacy Framework or Standard Contractual Clauses for such transfers; please see their privacy policies for details. Esri processes satellite requests for us in the United States. Esri is certified under the EU-U.S. Data Privacy Framework, and its Data Processing Addendum with us adds the European Commission's Standard Contractual Clauses where they are needed.</p>
+
+        <h2>7. Storage and Security</h2>
+        <h3>7.1 How Data Is Stored</h3>
+        <p>The App uses the following storage on your device:</p>
         <ul>
-            <li>You explicitly use the Export feature to create backup files</li>
-            <li>You use the Share function to send photos or data to other apps</li>
-            <li>You manually transfer files from your device</li>
+            <li>A local SQLite database for projects, observations, and templates</li>
+            <li>The App's private storage folder for photos, videos, thumbnails, and voice notes</li>
+            <li>Local preferences storage for settings</li>
+            <li>The App's cache folder for downloaded street map images, which your device may clear at any time</li>
         </ul>
+        <h3>7.2 Security</h3>
+        <p>Data in the App's storage is protected by your device's own security. The App does not add its own encryption, and exported files are not encrypted. No storage method is 100% secure. We recommend using a screen lock, keeping device encryption switched on, and storing exported files carefully.</p>
+        <h3>7.3 Retention</h3>
+        <p>Data is kept until you delete it in the App, clear the App's data in your device settings, or uninstall the App. Uninstalling permanently deletes everything that has not been exported.</p>
 
-        <h2>6. Third-Party Services</h2>
-        <p>The app uses the following third-party services:</p>
+        <h2>8. Recording Other People</h2>
+        <p>If you photograph, film, or record identifiable people, or use the App to document work for an employer or client, you may be responsible under data protection law for that information. Please respect the privacy of others, inform people where required, and share recordings only when you are allowed to.</p>
+
+        <h2>9. Your Rights and Choices</h2>
+        <h3>9.1 Controls in the App and on Your Device</h3>
+        <p>Because your data is on your device, you can exercise control over it directly:</p>
         <ul>
-            <li><strong>OpenStreetMap:</strong> For displaying maps. Map tile requests are made to OpenStreetMap servers, which may log standard web request data (IP address, request time). See <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" target="_blank">OpenStreetMap Privacy Policy</a>.</li>
-            <li><strong>Geocoding Services:</strong> To convert GPS coordinates to addresses. This requires sending location coordinates to geocoding servers.</li>
+            <li>View, edit, and delete individual photos, videos, voice notes, observations, or whole projects</li>
+            <li>Export your data in a portable format (ZIP project file and CSV)</li>
+            <li>Deny or revoke camera, location, and microphone permissions in your device settings</li>
+            <li>Turn off location watermarks in the App's settings</li>
+            <li>Clear all App data in your device settings, or uninstall the App</li>
         </ul>
+        <h3>9.2 Your Rights Under the GDPR</h3>
+        <p>If you are in the European Economic Area, you have the right to access, correct, delete, restrict, or object to the processing of personal data we hold about you, and the right to data portability. In practice, the only personal data we hold ourselves is email correspondence with us. Satellite map requests are processed for us by Esri (see section 5.2); because the App has no accounts, we cannot link them to you. To exercise these rights, contact <a href="mailto:empiricalcodelabs@gmail.com">empiricalcodelabs@gmail.com</a>. For data held by Google, Apple, or the OpenStreetMap Foundation, please contact those providers directly.</p>
+        <h3>9.3 Complaints</h3>
+        <p>You have the right to lodge a complaint with a data protection authority. In the Netherlands this is the Autoriteit Persoonsgegevens (<a href="https://autoriteitpersoonsgegevens.nl">autoriteitpersoonsgegevens.nl</a>). You can also contact the authority in your own country of residence.</p>
 
-        <h2>7. Permissions</h2>
-        <p>The app requests the following permissions:</p>
-        <ul>
-            <li><strong>Camera:</strong> To capture photos and videos</li>
-            <li><strong>Location:</strong> To record GPS coordinates with observations</li>
-            <li><strong>Microphone:</strong> To record voice notes</li>
-            <li><strong>Storage:</strong> To save and export observation files</li>
-        </ul>
-        <p>You can deny any permission, though some features may not work without them.</p>
+        <h2>10. Children&#x27;s Privacy</h2>
+        <p>The App is not directed at children under the age of 16, and we do not knowingly receive personal information from children. Since all data is stored on the device, parents and guardians are responsible for supervising their children's use of the device and the apps installed on it.</p>
 
-        <h2>8. Data Retention</h2>
-        <p>Your data remains on your device until you:</p>
-        <ul>
-            <li>Delete observations, projects, or photos within the app</li>
-            <li>Clear the app's data through device settings</li>
-            <li>Uninstall the application</li>
-        </ul>
+        <h2>11. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy, for example when the App's features change. When we make material changes, we will show the updated policy in the App and ask you to accept it before you continue. The date at the top shows when it was last updated.</p>
 
-        <h2>9. Children's Privacy</h2>
-        <p>Empirical Notes is not directed at children under 13. We do not knowingly collect information from children.</p>
-
-        <h2>10. Changes to This Policy</h2>
-        <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated revision date.</p>
-
-        <h2>11. Contact Us</h2>
-        <p>If you have questions about this Privacy Policy, please contact us at:</p>
-        <p><strong>Email:</strong> <a href="mailto:empiricalcodelabs@gmail.com">empiricalcodelabs@gmail.com</a></p>
+        <h2>12. Contact</h2>
+        <p>If you have questions about this Privacy Policy or your data, please contact:</p>
+        <p>Empirical Code Labs</p>
+        <p>Email: <a href="mailto:empiricalcodelabs@gmail.com">empiricalcodelabs@gmail.com</a></p>
 
         <div class="footer">
-            <p>&copy; 2024 Empirical Notes. All rights reserved.</p>
-            <p><a href="terms-of-service.html">Terms of Service</a></p>
+            <p>&copy; 2026 Empirical Code Labs. All rights reserved.</p>
+            <p><a href="index.html">Home</a> &middot; <a href="terms-of-service.html">Terms and Conditions</a></p>
         </div>
     </div>
 </body>
